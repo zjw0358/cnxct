@@ -1,0 +1,70 @@
+{subtemplate header}
+<div class="container">
+	<div id="foruminfo">
+		<div id="nav"><a href="$indexname">$bbname</a> &raquo; $lang['rankgroup']</div>
+	</div>
+	
+	
+	
+	<div class="content">
+	<div class="mainbox formbox">
+	<h1>$lang['rankgroup']</h1>
+<!--{if empty($type)}-->
+	<form method="post" action="rankgroup.php?action=save">
+	<input type="hidden" name="formhash" value="{FORMHASH}" />
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td></td>
+		<td>$lang['rankgroup_class']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+	<!--{if $rankgroup}-->
+		<!--{loop $rankgroup $group}-->
+			<tr>
+			<td width="5%"><input type="radio" name="rankgroupid" value="$group['id']" $group['check']/></td>
+			<td width="15%" align="center"><strong>$group['gname']</strong><br><img src="{IMGDIR}/../avatars/$group['imgurl']" width="80" height="110" /></td>
+			<td>
+			<!--{loop $group['ranks'] $ranks}-->			
+			<div style="width:140px; margin:auto 5px; float:left;">$ranks['ranktitle']&nbsp;$ranks['gname']</div>
+			<!--{/loop}-->
+			</td>
+			</tr>
+		<!--{/loop}-->
+		<td colspan="6">$lang['rankgroup_please']!</td></tr>
+	<!--{else}-->
+		<td colspan="6">$lang['rankgroup_no']</td></tr>
+	<!--{/if}-->
+	</tbody>
+	<tr class="btns">
+	<td colspan="6"><button class="submit" type="submit" name="rankgroupsubmit" id="rankgroupsubmit" value="true" tabindex="1">{lang submit}</button></td>
+	</table>
+	</form>
+<!--{elseif $type == 'save'}-->
+<table summary="{lang rankgroup_edit}" cellspacing="0" cellpadding="0" width="100%" align="center">
+	<tbody>
+	<tr>
+	<td>
+	<!--{if $edit == TRUE }-->
+	<img src="{IMGDIR}/check_right.gif" />$lang['rankgroup_edit_true']
+	<!--{else}-->
+	<img src="{IMGDIR}/check_error.gif" />$lang['rankgroup_edit_false']
+	<!--{/if}-->
+	<a href="./rankgroup.php">[ {lang go_back} ]</a>
+<!--{/if}-->
+	</td>
+	</tr>
+	</tbody>
+</table>
+	</div>
+	</div>
+	
+	
+	
+	<div class="side">
+		{subtemplate personal_navbar}
+	</div>
+</div>
+{subtemplate footer}

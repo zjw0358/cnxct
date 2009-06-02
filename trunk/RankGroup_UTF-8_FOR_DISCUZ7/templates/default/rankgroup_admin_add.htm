@@ -1,0 +1,45 @@
+{subtemplate header}
+<div class="container">
+	<div id="foruminfo">
+		<div id="nav"><a href="$indexname">$bbname</a> &raquo;<a href="rankgroup_admin.php"> $lang['rankgroup_manager']</a>&raquo;$lang['rankgroup_add']</div>
+	</div>
+	
+	
+	
+	<div class="content">
+	<div class="mainbox formbox">
+
+	<h1>$lang['rankgroup_add_result']</h1>
+	<table summary="$lang['rankgroup_add_result']" cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td></td>
+		<td width="20%" align="center">$lang['rankgroup_add_result']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<td></td>
+		<!--{if $rankgroup_name_empty}-->
+		<td width="20%" align="center"><strong>$lang['rankgroup_name_empty']</strong></td>
+		<!--{elseif $rankgroup_son_exist}-->
+		<td width="20%" align="center"><strong>$lang['rankgroup_son_exist']</strong></td>
+		<!--{elseif $result}-->
+		<td width="20%" align="center"><strong>$lang['rankgroup_add_ok']</strong></td>
+		<!--{/if}-->
+		<td></td>
+		</tr>
+		<tr><td colspan="3"><a href="rankgroup_admin.php">[ {lang go_back} ]</a></td></tr>
+	</tbody>
+	</table>
+	
+	</div>
+	</div>
+	
+	
+	<div class="side">
+		{subtemplate personal_navbar}
+	</div>
+</div>
+{subtemplate footer}
