@@ -1,0 +1,304 @@
+{subtemplate header}
+
+<!--{if $action == 'del'}-->
+<div id="nav"><a href="$indexname">$bbname</a> &raquo; $lang['rankgroup_manager']</div>	
+	
+<div id="wrap" class="wrap with_side s_clear">
+	<div class="main">
+	<div class="content">
+
+	<h1>$lang['rankgroup_del_result']</h1>
+	<div class="datalist">
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td></td>
+		<td width="20%" align="center">$lang['rankgroup_groupsnum']</td>
+		<td width="20%" align="center">$lang['rankgroup_sonsnum']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<!--{if $no_rankgroupid }-->
+	<tbody>
+		<tr>
+		<td colspan="4" align="center">$lang['rankgroup_groupid_no']</td></tr>
+	</tbody>
+	<!--{else}-->
+	<tbody>
+		<tr>
+		<td></td>
+		<td width="20%" align="center">
+		<!--{if $rows['0'] == '0' }-->
+		$lang['rankgroup_groupsnum_no']
+		<!--{else}-->
+		$rows['0']
+		<!--{/if}-->
+		</td>
+		<td width="20%" align="center">
+		<!--{if $rows['1'] == '0' }-->
+		$lang['rankgroup_groupsnum_no']
+		<!--{else}-->
+		$rows['1']
+		<!--{/if}-->
+		</td>
+		<td></td>
+		</tr>
+		<tr class="btns">
+		<td colspan="4"></td>
+	</tbody>
+	<!--{/if}-->
+	<tr class="btns">
+	<td colspan="4"><a href="rankgroup_admin.php">[ {lang go_back} ]</a></td>
+	</table>
+	</div>
+	</div>
+	</div>
+<!--{elseif $action == 'view'}-->
+<div id="nav"><a href="$indexname">$bbname</a> &raquo; $lang['rankgroup_manager']</div>
+	
+<div id="wrap" class="wrap with_side s_clear">
+	<div class="main">
+	<div class="content">
+
+	<!--{if $gid=='0'}-->
+	<h1>$lang['rankgroup_big_all']</h1>
+	<div class="datalist">
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td width="10%" align="center">$lang['rankgroup_active']</td>
+		<td width="20%" align="center">$lang['rankgroup_groupsname']</td>
+		<td width="5%" align="center">$lang['edit_rankgroup']</td>
+		<td width="5%" align="center">$lang['del_rankgroup']</td>
+		<td width="18%" align="center">$lang['rankgroup_view_sons']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+	<!--{if $rankgroup}-->
+		<!--{loop $rankgroup $group}-->
+			<tr>
+			<td width="10%" align="center">$group['check']</td>
+			<td width="20%" align="center"><strong>$group['gname']</strong></td>
+			<td width="5%" align="center"><a href="?action=edit&id=$group['id']">$lang['edit_rankgroup']</a></td>
+			<td width="5%" align="center"><a href="?action=del&id=$group['id']" onclick="return confirm('$lang['rankgroup_del_alert_msg']')">$lang['del_rankgroup']</a></td>
+			<td width="18%" align="center"><a href="?gid=$group['id']">$lang['rankgroup_view_sons']</a></td>
+			<td></td>
+			</tr>
+		<!--{/loop}-->
+	<!--{else}-->
+		<td colspan="6">$lang['rankgroup_no']</td></tr>
+	<!--{/if}-->
+	</tbody>
+	<tr class="btns">
+	<td colspan="6"></td>
+	<tr class="btns">
+	<td colspan="6"></td>
+	</table>
+	<h1>$lang['rankgroup_add_gclass']</h1>
+	<form method="post" action="rankgroup_admin.php?action=add">
+	<input type="hidden" name="formhash" value="{FORMHASH}" />
+	<input type="hidden" name="gid" value="0" />
+	<table cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td width="5%" align="center">$lang['rankgroup_active_no']</td>
+		<td width="5%" align="center">$lang['rankgroup_active_yes']</td>
+		<td width="20%" align="center">$lang['rankgroup_groupsname']</td>
+		<td width="5%" align="center">$lang['rankgroup_imgurl']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+			<td width="5%" align="center"><input type="radio" name="active" value="0"/></td>
+			<td width="5%" align="center"><input type="radio" name="active" value="1" checked=""/></td>
+			<td width="20%" align="center"><input type="text" name="rankgroup_gname"/></td>
+			<td width="20%" align="center"><input type="text" name="imgrul"/></td>
+			<td>$lang['rankgroup_imgurl_more']</td>
+			</tr>
+	</tbody>
+	<tr class="btns">
+	<td colspan="5"><button class="submit" type="submit" name="rankgroup_add" id="rankgroup_add" value="true" tabindex="1">{lang submit}</button></td>
+	</table>
+	</form>
+
+	<!--{else}-->
+	<h1>"$fname" $lang['rankgroup_small_all']</h1>
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td width="10%" align="center">$lang['rankgroup_level']</td>
+		<td width="8%" align="center">$lang['rankgroup_post']</td>
+		<td width="8%" align="center">$lang['rankgroup_stars']</td>
+		<td width="20%" align="center">$lang['rankgroup_sname']</td>
+		<td width="5%" align="center">$lang['edit_rankgroup']</td>
+		<td width="5%" align="center">$lang['del_rankgroup']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+	<!--{if $rankgroup}-->
+		<!--{loop $rankgroup $group}-->
+			<tr>
+			<td width="10%" align="center">$group['ranktitle']</td>
+			<td width="8%" align="center">$group['postshigher']</td>
+			<td width="8%" align="center">$group['stars']</td>
+			<td width="20%" align="center"><strong>$group['gname']</strong></td>
+			<td width="5%" align="center"><a href="?action=edit&id=$group['id']">$lang['edit_rankgroup']</a></td>
+			<td width="5%" align="center"><a href="?action=del&id=$group['id']"  onclick="return confirm('$lang['rankgroup_del_alert_msg']')">$lang['del_rankgroup']</a></td>
+			<td></td>
+			</tr>
+		<!--{/loop}-->
+	<!--{else}-->
+	<tr><td colspan="7">$lang['rankgroup_no']</td></tr>
+	<!--{/if}-->
+	</tbody>
+	<tr class="btns">
+	<td colspan="7"></td></tr>
+	<tr class="btns">
+	<td colspan="7"></td></tr>
+	</table>
+
+		<h1>$lang['rankgroup_add_sclass'] "$fname"</h1>
+	<form method="post" action="rankgroup_admin.php?action=add">
+	<input type="hidden" name="formhash" value="{FORMHASH}" />
+	<input type="hidden" name="gid" value="$gid" />
+	<table cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td width="5%" align="center">$lang['rankgroup_level']</td>
+		<td width="20%" align="center">$lang['rankgroup_sname']</td>
+		<td></td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+			<td width="5%" align="center">
+			<select name="rankid">
+			<!--{loop $ranks_level $ranks}-->
+			<option value="$ranks['rankid']">$ranks['ranktitle']</option>
+			<!--{/loop}--></select></td>
+			<td width="20%" align="center"><input type="text" name="rankgroup_gname"/></td>
+			<td></td>
+			<td><button class="submit" type="submit" name="rankgroup_add" id="rankgroup_add" value="true" tabindex="1">{lang submit}</button></td>
+			</tr>
+	</tbody>
+	<tr class="btns">
+	<td colspan="5"></td>
+	</table>
+	</form>
+	<!--{/if}-->
+	</div>
+	</div>
+	</div>
+<!--{elseif $action == 'edit'}-->
+		<div id="nav"><a href="$indexname">$bbname</a> &raquo; <a href="rankgroup_admin.php">$lang['rankgroup_manager']</a>&raquo;$lang['rankgroup_info_edit']</div>
+	
+<div id="wrap" class="wrap with_side s_clear">
+	<div class="main">
+	<div class="content">
+
+	<h1>$lang['rankgroup_info_edit']</h1>
+	<div class="datalist">
+	<form method="post" action="rankgroup_admin.php?action=editsave">
+	<input type="hidden" name="formhash" value="{FORMHASH}" />
+	<input type="hidden" name="id" value="$rankgroup_info['id']" />
+	<input type="hidden" name="gid" value="$rankgroup_info['gid']" />
+	<table cellspacing="0" cellpadding="0" width="100%" align="center">
+	<!--{if $rankgroup_info['gid']=='0'}-->
+	<thead>
+		<tr>	
+		<td width="20%" align="center">$lang['rankgroup_groupsname']</td>
+		<td width="10%" align="center">$lang['rankgroup_imgurl']</td>
+		<td width="5%" align="center">$lang['rankgroup_active_no']</td>
+		<td width="5%" align="center">$lang['rankgroup_active_yes']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+			<td width="20%" align="center">
+			<input type="text" name="rankgroup_gname" value="$rankgroup_info['gname']"/></td>
+			<td width="20%" align="center">
+			<input type="text" name="imgurl" value="$rankgroup_info['imgurl']"/></td>
+			<!--{if $rankgroup_info['closed'] == '1'}-->
+			<td width="5%" align="center"><input type="radio" name="active" value="0"/></td>
+			<td width="5%" align="center"><input type="radio" name="active" value="1" checked=""/></td>
+			<!--{else}-->
+			<td width="5%" align="center"><input type="radio" name="active" value="0" checked=""/></td>
+			<td width="5%" align="center"><input type="radio" name="active" value="1"/></td>
+			<!--{/if}-->
+			<td></td>
+			</tr>
+	</tbody>
+	<!--{else}-->
+
+		<thead>
+		<tr>	
+		<td width="20%" align="center">$lang['rankgroup_groupsname']</td>
+		<td width="8%" align="center">$lang['rankgroup_level']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+			<td width="20%" align="center">
+			<input type="text" name="rankgroup_gname" value="$rankgroup_info['gname']"/></td>
+			<td width="5%" align="center">
+			<select name="rankid">
+			<option value="$rankgroup_info['rankid']">$ranktitle</option>
+			<!--{loop $ranks_level $ranks}-->
+			<option value="$ranks['rankid']">$ranks['ranktitle']</option>
+			<!--{/loop}--></select></td>
+			<td></td>
+			</tr>
+	</tbody>
+	<!--{/if}-->
+	<tr class="btns">
+	<td colspan="6"><button class="submit" type="submit" name="rankgroup_edit" id="rankgroup_edit" value="true" tabindex="1">{lang submit}</button></td></tr>
+	</table>
+	</form>
+	</div>
+	</div>
+	</div>
+<!--{else}-->
+<div id="nav"><a href="$indexname">$bbname</a> &raquo;<a href="rankgroup_admin.php"> $lang['rankgroup_manager']</a>&raquo;$lang['rankgroup_add']</div>
+	
+<div id="wrap" class="wrap with_side s_clear">
+	<div class="main">
+	<div class="content">
+	<h1>$lang['rankgroup_add_result']</h1>
+	<table summary="$lang['rankgroup_add_result']" cellspacing="0" cellpadding="0" width="100%" align="center">
+	<thead>
+		<tr>
+		<td></td>
+		<td width="20%" align="center">$lang['rankgroup_add_result']</td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<td></td>
+		<!--{if $rankgroup_name_empty}-->
+		<td width="20%" align="center"><strong>$lang['rankgroup_name_empty']</strong></td>
+		<!--{elseif $rankgroup_son_exist}-->
+		<td width="20%" align="center"><strong>$lang['rankgroup_son_exist']</strong></td>
+		<!--{elseif $result}-->
+		<td width="20%" align="center"><strong>$lang['rankgroup_add_ok']</strong></td>
+		<!--{/if}-->
+		<td></td>
+		</tr>
+		<tr><td colspan="3"><a href="rankgroup_admin.php">[ {lang go_back} ]</a></td></tr>
+	</tbody>
+	</table>
+	</div>
+	</div>
+	</div>
+<!--{/if}-->
+	<div class="side">
+		{subtemplate personal_navbar}
+	</div>
+</div>
+{subtemplate footer}
