@@ -9,8 +9,8 @@
 
 	<h1>$lang['rankgroup_del_result']</h1>
 	<div class="datalist">
-	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" width="100%" align="center">
-	<thead>
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" class="datatable" align="center">
+	<thead class="colplural">
 		<tr>
 		<td></td>
 		<td width="20%" align="center">$lang['rankgroup_groupsnum']</td>
@@ -43,8 +43,6 @@
 		</td>
 		<td></td>
 		</tr>
-		<tr class="btns">
-		<td colspan="4"></td>
 	</tbody>
 	<!--{/if}-->
 	<tr class="btns">
@@ -53,6 +51,7 @@
 	</div>
 	</div>
 	</div>
+<div class="side">{subtemplate personal_navbar}</div>
 <!--{elseif $action == 'view'}-->
 <div id="nav"><a href="$indexname">$bbname</a> &raquo; $lang['rankgroup_manager']</div>
 	
@@ -63,14 +62,14 @@
 	<!--{if $gid=='0'}-->
 	<h1>$lang['rankgroup_big_all']</h1>
 	<div class="datalist">
-	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" width="100%" align="center">
-	<thead>
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" class="datatable" align="center">
+	<thead class="colplural">
 		<tr>
 		<td width="10%" align="center">$lang['rankgroup_active']</td>
-		<td width="20%" align="center">$lang['rankgroup_groupsname']</td>
+		<td width="15%" align="center">$lang['rankgroup_groupsname']</td>
 		<td width="5%" align="center">$lang['edit_rankgroup']</td>
 		<td width="5%" align="center">$lang['del_rankgroup']</td>
-		<td width="18%" align="center">$lang['rankgroup_view_sons']</td>
+		<td width="25%" align="center">$lang['rankgroup_view_sons']</td>
 		<td></td>
 		</tr>
 	</thead>
@@ -78,11 +77,11 @@
 	<!--{if $rankgroup}-->
 		<!--{loop $rankgroup $group}-->
 			<tr>
-			<td width="10%" align="center">$group['check']</td>
-			<td width="20%" align="center"><strong>$group['gname']</strong></td>
+			<td width="10%" align="center"><!--{if $group['check']}--> <img src="images/default/data_valid.gif"><!--{else}--><img src="images/default/data_invalid.gif"><!--{/if}--></td>
+			<td width="15%" align="center"><strong>$group['gname']</strong></td>
 			<td width="5%" align="center"><a href="?action=edit&id=$group['id']">$lang['edit_rankgroup']</a></td>
 			<td width="5%" align="center"><a href="?action=del&id=$group['id']" onclick="return confirm('$lang['rankgroup_del_alert_msg']')">$lang['del_rankgroup']</a></td>
-			<td width="18%" align="center"><a href="?gid=$group['id']">$lang['rankgroup_view_sons']</a></td>
+			<td width="25%" align="center"><a href="?gid=$group['id']">$lang['rankgroup_view_sons']</a></td>
 			<td></td>
 			</tr>
 		<!--{/loop}-->
@@ -95,12 +94,14 @@
 	<tr class="btns">
 	<td colspan="6"></td>
 	</table>
+	</div>
 	<h1>$lang['rankgroup_add_gclass']</h1>
+	<div class="datalist">
 	<form method="post" action="rankgroup_admin.php?action=add">
 	<input type="hidden" name="formhash" value="{FORMHASH}" />
 	<input type="hidden" name="gid" value="0" />
-	<table cellspacing="0" cellpadding="0" width="100%" align="center">
-	<thead>
+	<table cellspacing="0" cellpadding="0" class="datatable" align="center">
+	<thead class="colplural">
 		<tr>
 		<td width="5%" align="center">$lang['rankgroup_active_no']</td>
 		<td width="5%" align="center">$lang['rankgroup_active_yes']</td>
@@ -121,12 +122,13 @@
 	<tr class="btns">
 	<td colspan="5"><button class="submit" type="submit" name="rankgroup_add" id="rankgroup_add" value="true" tabindex="1">{lang submit}</button></td>
 	</table>
-	</form>
+	</form></div>
 
 	<!--{else}-->
 	<h1>"$fname" $lang['rankgroup_small_all']</h1>
-	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" width="100%" align="center">
-	<thead>
+	<div class="datalist">
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" class="datatable" align="center">
+	<thead class="colplural">
 		<tr>
 		<td width="10%" align="center">$lang['rankgroup_level']</td>
 		<td width="8%" align="center">$lang['rankgroup_post']</td>
@@ -158,14 +160,15 @@
 	<td colspan="7"></td></tr>
 	<tr class="btns">
 	<td colspan="7"></td></tr>
-	</table>
+	</table></div>
 
 		<h1>$lang['rankgroup_add_sclass'] "$fname"</h1>
+		<div class="datalist">
 	<form method="post" action="rankgroup_admin.php?action=add">
 	<input type="hidden" name="formhash" value="{FORMHASH}" />
 	<input type="hidden" name="gid" value="$gid" />
-	<table cellspacing="0" cellpadding="0" width="100%" align="center">
-	<thead>
+	<table cellspacing="0" cellpadding="0" class="datatable" align="center">
+	<thead class="colplural">
 		<tr>
 		<td width="5%" align="center">$lang['rankgroup_level']</td>
 		<td width="20%" align="center">$lang['rankgroup_sname']</td>
@@ -188,11 +191,12 @@
 	<tr class="btns">
 	<td colspan="5"></td>
 	</table>
-	</form>
+	</form></div>
+
 	<!--{/if}-->
 	</div>
 	</div>
-	</div>
+<div class="side">{subtemplate personal_navbar}</div>
 <!--{elseif $action == 'edit'}-->
 		<div id="nav"><a href="$indexname">$bbname</a> &raquo; <a href="rankgroup_admin.php">$lang['rankgroup_manager']</a>&raquo;$lang['rankgroup_info_edit']</div>
 	
@@ -206,9 +210,9 @@
 	<input type="hidden" name="formhash" value="{FORMHASH}" />
 	<input type="hidden" name="id" value="$rankgroup_info['id']" />
 	<input type="hidden" name="gid" value="$rankgroup_info['gid']" />
-	<table cellspacing="0" cellpadding="0" width="100%" align="center">
+	<table cellspacing="0" cellpadding="0" class="datatable" align="center">
 	<!--{if $rankgroup_info['gid']=='0'}-->
-	<thead>
+	<thead class="colplural">
 		<tr>	
 		<td width="20%" align="center">$lang['rankgroup_groupsname']</td>
 		<td width="10%" align="center">$lang['rankgroup_imgurl']</td>
@@ -234,8 +238,7 @@
 			</tr>
 	</tbody>
 	<!--{else}-->
-
-		<thead>
+		<thead class="colplural">
 		<tr>	
 		<td width="20%" align="center">$lang['rankgroup_groupsname']</td>
 		<td width="8%" align="center">$lang['rankgroup_level']</td>
@@ -263,15 +266,18 @@
 	</div>
 	</div>
 	</div>
+	<div class="side">{subtemplate personal_navbar}</div>
 <!--{else}-->
+
 <div id="nav"><a href="$indexname">$bbname</a> &raquo;<a href="rankgroup_admin.php"> $lang['rankgroup_manager']</a>&raquo;$lang['rankgroup_add']</div>
 	
 <div id="wrap" class="wrap with_side s_clear">
 	<div class="main">
 	<div class="content">
 	<h1>$lang['rankgroup_add_result']</h1>
-	<table summary="$lang['rankgroup_add_result']" cellspacing="0" cellpadding="0" width="100%" align="center">
-	<thead>
+	<div class="datalist">
+	<table summary="$lang['rankgroup_add_result']" cellspacing="0" cellpadding="0" class="datatable"  align="center">
+	<thead class="colplural">
 		<tr>
 		<td></td>
 		<td width="20%" align="center">$lang['rankgroup_add_result']</td>
@@ -296,9 +302,7 @@
 	</div>
 	</div>
 	</div>
+<div class="side">{subtemplate personal_navbar}</div>
 <!--{/if}-->
-	<div class="side">
-		{subtemplate personal_navbar}
-	</div>
 </div>
 {subtemplate footer}
