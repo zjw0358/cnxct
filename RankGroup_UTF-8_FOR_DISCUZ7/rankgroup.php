@@ -1,9 +1,11 @@
 <?php
 /*
-	Date:2008-11-21
-	$Id: rankgroup.php   cfc4n $
-	$ 类百度知道多头衔角色插件 UTF-8 $
+	$RCSfile: rankgroup.php,v $
+	$Revision: 1.0 $
+	$Date: 2006/02/23 13:44:02 $
+	$author: cfc4n $
 */
+
 require_once './include/common.inc.php';
 require_once DISCUZ_ROOT.'./plugins/rankgroup/rankgroup.func.php';
 @include language('rankgroup', 0, './plugins/rankgroup/');
