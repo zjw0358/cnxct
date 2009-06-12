@@ -1,0 +1,59 @@
+[ 09-06-12 16:43:02 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-12 16:43:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-12 16:43:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-12 16:43:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-12 16:43:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-12 16:58:30 ]
+
+错误信息：[ myApp Index insert ]Access denied for user 'root'@'localhost' (using password: NO)
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\ThinkPHP\Lib\Think\Db\Db.class.php (267) DbMysql->connect()
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (114) Db->initConnect()
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(SHOW COLUMNS FROM guestbook)
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (9) DbMysql->getFields(guestbook)
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (9) Model->flush()
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (9) Model->_checkTableInfo()
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (3) Model->__construct()
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-12 16:58:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-12 17:01:06 ]
+
+错误信息：[ myApp Index insert ]Access denied for user 'root'@'localhost' (using password: NO)
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\ThinkPHP\Lib\Think\Db\Db.class.php (267) DbMysql->connect()
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (114) Db->initConnect()
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(SHOW COLUMNS FROM guestbook)
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (9) DbMysql->getFields(guestbook)
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (9) Model->flush()
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (9) Model->_checkTableInfo()
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (3) Model->__construct()
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-12 17:01:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-12 17:08:39 ]
+
+错误信息：[ myApp Index insert ]Model:redirct
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-12 17:08:06]  () Model->__call(redirct, Array)
+[09-06-12 17:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (13) GuestbookModel->redirct()
+[09-06-12 17:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-12 17:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-12 17:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+

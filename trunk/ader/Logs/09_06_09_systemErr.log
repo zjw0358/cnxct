@@ -1,0 +1,258 @@
+[ 09-06-09 16:05:51 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:05:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:05:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:05:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:05:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:07:03 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:07:09 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:07:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:08:04 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:08:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:10:10 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:10:19 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:10:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:16:55 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:16:56 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:16:57 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:16:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:17:18 ]
+
+错误信息：[ myApp Index insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Index/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:17:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\IndexAction.class.php (10) D(Guestbook)
+[09-06-09 16:17:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) IndexAction->insert()
+[09-06-09 16:17:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:17:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:19:16 ]
+
+错误信息：[ myApp Guestbook add ]无法加载模块Guestbook
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/add
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:19:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:19:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:19:25 ]
+
+错误信息：[ myApp guestbook add ]无法加载模块guestbook
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/guestbook/add
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:19:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:19:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:21:00 ]
+
+错误信息：[ myApp guestbook add ]无法加载模块guestbook
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/guestbook/add
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:21:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:21:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:32:43 ]
+
+错误信息：[ myApp Guestbook insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:32:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (10) D(Guestbook)
+[09-06-09 16:32:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:32:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:32:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:34:01 ]
+
+错误信息：[ myApp Guestbook insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (10) D(Guestbook)
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:34:37 ]
+
+错误信息：[ myApp Guestbook insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (11) D(Guestbook)
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:34:38 ]
+
+错误信息：[ myApp Guestbook insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (11) D(Guestbook)
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:34:38 ]
+
+错误信息：[ myApp Guestbook insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (11) D(Guestbook)
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:34:38 ]
+
+错误信息：[ myApp Guestbook insert ]GuestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (11) D(Guestbook)
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:34:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:36:13 ]
+
+错误信息：[ myApp Guestbook add ]非法操作add
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/add
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:36:06]  () Action->__call(add, Array)
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->add()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:36:18 ]
+
+错误信息：[ myApp Guestbook insert ]guestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (10) D(guestbook)
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:36:48 ]
+
+错误信息：[ myApp Guestbook insert ]guestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (10) D(guestbook)
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:36:49 ]
+
+错误信息：[ myApp Guestbook insert ]guestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (10) D(guestbook)
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
+[ 09-06-09 16:36:50 ]
+
+错误信息：[ myApp Guestbook insert ]guestbookModel模型不存在或者没有定义
+错误页面：/google_svn_cnxct/ader/google_svn_cnxct/ader/index.php/Guestbook/insert
+错误类型：ThinkException
+错误跟踪：
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Lib\Action\GuestbookAction.class.php (10) D(guestbook)
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) GuestbookAction->insert()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\Temp\~runtime.php (7) App->exec()
+[09-06-09 16:36:06] D:\WWWROOT\cms\google_svn_cnxct\ader\index.php (14) App->run()
+
