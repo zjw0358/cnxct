@@ -10,6 +10,6 @@ return array(
 'website' => '个人网站',
 'hidden' =>'私密',
 'submit' => '提交',
-'goback' => '返回';
+'goback' => '返回',
 );
 ?>

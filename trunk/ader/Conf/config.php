@@ -8,7 +8,7 @@ return array(
 'DB_HOST' =>'localhost',
 'DB_NAME' =>'ader',
 'DB_USER' =>'root',
-'DB_PASS' =>'lenovo',
+'DB_PWD' =>'lenovo',
 'DB_PORT' =>'3306',
 'debug_mode' => true,
 'LANG_SWITCH_ON' =>true,
