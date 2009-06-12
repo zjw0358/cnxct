@@ -1,4 +1,4 @@
-<form method="post" action="/google_svn_cnxct/ader/index.php/Index/add">
+<form method="post" action="/google_svn_cnxct/ader/index.php/Index/insert">
 <p><?php echo (L("name")); ?>:<input name="name" type="text" ></p>
 <p><?php echo (L("email")); ?>:<input name="email" type="text" ></p>
 <p><?php echo (L("website")); ?>:<input name="website" type="text" ></p>

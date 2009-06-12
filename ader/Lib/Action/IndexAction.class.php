@@ -8,9 +8,9 @@ class IndexAction extends Action{
 
 	public function insert() {
 		$guestbook = D('Guestbook');
-		if($this->create()) {
-			$this->add();
-			$this->redirct();
+		if($guestbook->create()) {
+			$guestbook->add();
+			$guestbook->redirct();
 		}
 		else {
 			exit($this->getError().'[ <A HREF="javascript:history.back()">'.L('goback').'</A> ]');
