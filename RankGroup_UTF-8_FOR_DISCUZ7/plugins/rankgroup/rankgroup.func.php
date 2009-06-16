@@ -1,7 +1,9 @@
 <?php
 /*
-	Date:2008-11-26 16:16
-	$Id: rankgroup.func.php   cfc4n $
+	$Author$
+	$Date$
+	$URL$
+	$Rev$
 */
 
 

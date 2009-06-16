@@ -1,10 +1,9 @@
 <?php
-
 /*
-	[Discuz!] (C)2001-2009 Comsenz Inc.
-	This is NOT a freeware, use is subject to license terms
-
-	$Id: space.php 17199 2008-12-09 14:29:41Z liuqiang $
+	$Author$
+	$Date$
+	$URL$
+	$Rev$
 */
 
 if(!defined('CURSCRIPT')) {
