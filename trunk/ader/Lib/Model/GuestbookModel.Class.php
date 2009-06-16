@@ -1,9 +1,9 @@
 <?php
 /*
-	Date:Guestbook
-	$Id: .php   cfc4n $
+	$Date$
+	$Author$
+	$Id$
 */
-
 class GuestbookModel extends Model {
 protected $_validate = array(
 	array('name','require','{%lang_name_is_require}',1),
