@@ -1,7 +1,8 @@
 <?php
 /*
-	Date:2009-6-8
-	$Id: conmon.php   cfc4n $
+	$Date$
+	$Author$
+	$Id$
 */
 return array(
 'name' => 'UserName',

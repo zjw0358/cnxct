@@ -1,8 +1,8 @@
 <?php
 /*
-	Date:2009-6-4
-	add
-	$Id: .index.php   cfc4n $
+	$Date$
+	$Author$
+	$Id$
 */
 define('THINK_PATH','./ThinkPHP');
 

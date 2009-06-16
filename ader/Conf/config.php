@@ -1,7 +1,8 @@
 <?php
 /*
-	Date:
-	$Id: .php   cfc4n $
+	$Date$
+	$Author$
+	$Id$
 */
 return array(
 'DB_TYPE' =>'mysql',
