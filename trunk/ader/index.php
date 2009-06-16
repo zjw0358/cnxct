@@ -1,6 +1,7 @@
 <?php
 /*
 	Date:2009-6-4
+	add
 	$Id: .index.php   cfc4n $
 */
 define('THINK_PATH','./ThinkPHP');
