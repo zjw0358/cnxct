@@ -2,7 +2,7 @@
 /*
 	$Date$
 	$Author$
-	$Id$
+	$Id: GuestbookModel.Class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 */
 class GuestbookModel extends Model {
 protected $_validate = array(

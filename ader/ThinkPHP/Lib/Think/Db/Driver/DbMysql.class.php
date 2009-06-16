@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: DbMysql.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 define('CLIENT_MULTI_RESULTS', 131072);
 /**
@@ -19,7 +19,7 @@ define('CLIENT_MULTI_RESULTS', 131072);
  * @package  Think
  * @subpackage  Db
  * @author    liu21st <liu21st@gmail.com>
- * @version   $Id$
+ * @version   $Id: DbMysql.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 Class DbMysql extends Db{

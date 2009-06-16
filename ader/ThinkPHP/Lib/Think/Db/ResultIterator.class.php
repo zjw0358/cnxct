@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: ResultIterator.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 /**
  +------------------------------------------------------------------------------
@@ -19,7 +19,7 @@
  * @package  Think
  * @subpackage  Db
  * @author    liu21st <liu21st@gmail.com>
- * @version   $Id$
+ * @version   $Id: ResultIterator.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 class ResultIterator extends Base implements IteratorAggregate
