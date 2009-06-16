@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: DaoAuthentictionProvider.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 /**
  +------------------------------------------------------------------------------
@@ -18,7 +18,7 @@
  * @package  ORG
  * @subpackage  RBAC
  * @author    liu21st <liu21st@gmail.com>
- * @version   $Id$
+ * @version   $Id: DaoAuthentictionProvider.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 class DaoAuthentictionProvider extends ProviderManager

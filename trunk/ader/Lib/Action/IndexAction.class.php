@@ -2,7 +2,7 @@
 /*
 	$Date$
 	$Author$
-	$Id$
+	$Id: IndexAction.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 */
 class IndexAction extends Action{
     public function index(){

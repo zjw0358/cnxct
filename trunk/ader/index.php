@@ -2,7 +2,7 @@
 /*
 	$Date$
 	$Author$
-	$Id$
+	$Id: index.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 */
 define('THINK_PATH','./ThinkPHP');
 

@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: TagLibCx.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 import('Think.Template.TagLib');
 
@@ -20,7 +20,7 @@ import('Think.Template.TagLib');
  * @package  Think
  * @subpackage  Template
  * @author    liu21st <liu21st@gmail.com>
- * @version   $Id$
+ * @version   $Id: TagLibCx.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 class TagLibCx extends TagLib

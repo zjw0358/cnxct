@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: Model.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 define('HAS_ONE',1);
 define('BELONGS_TO',2);
@@ -28,7 +28,7 @@ define('VALUE_TO_VAILIDATE',2);     // 表单值不为空则验证
  * @package  Think
  * @subpackage  Core
  * @author    liu21st <liu21st@gmail.com>
- * @version   $Id$
+ * @version   $Id: Model.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 class Model extends Base  implements IteratorAggregate

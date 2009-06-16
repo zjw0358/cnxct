@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: ThinkTemplate.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 /**
  +------------------------------------------------------------------------------
@@ -20,7 +20,7 @@
  * @package  Think
  * @subpackage  Template
  * @author liu21st <liu21st@gmail.com>
- * @version  $Id$
+ * @version  $Id: ThinkTemplate.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 class  ThinkTemplate extends Base

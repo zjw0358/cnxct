@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>                                  
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: Stack.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 import("Think.Util.ArrayList");
 
@@ -20,7 +20,7 @@ import("Think.Util.ArrayList");
  * @package  ORG
  * @subpackage  Util
  * @author    liu21st <liu21st@gmail.com>
- * @version   $Id$
+ * @version   $Id: Stack.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 class Stack extends ArrayList

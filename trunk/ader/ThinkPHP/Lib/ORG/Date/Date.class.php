@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-// $Id$
+// $Id: Date.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
 
 
 /**
@@ -19,7 +19,7 @@
  * @package  ORG
  * @subpackage  Date
  * @author    liu21st <liu21st@gmail.com>
- * @version   $Id$
+ * @version   $Id: Date.class.php 18 2009-06-16 03:16:13Z cfc4nPHP $
  +------------------------------------------------------------------------------
  */
 class Date extends Base
