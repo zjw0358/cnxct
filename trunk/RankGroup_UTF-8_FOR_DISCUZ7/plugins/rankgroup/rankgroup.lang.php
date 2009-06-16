@@ -1,7 +1,9 @@
 <?php
 /*
-	Date:2008-11-26 16:05
-	$Id: rankgroup.lang.php   cfc4n $
+	$Author$
+	$Date$
+	$URL$
+	$Rev$
 */
 
 $lang = array

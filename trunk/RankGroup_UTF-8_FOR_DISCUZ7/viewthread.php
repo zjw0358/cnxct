@@ -1,10 +1,9 @@
 <?php
-
 /*
-	[Discuz!] (C)2001-2009 Comsenz Inc.
-	This is NOT a freeware, use is subject to license terms
-
-	$Id: viewthread.php 17531 2009-01-19 01:32:52Z tiger $
+	$Author$
+	$Date$
+	$URL$
+	$Rev$
 */
 
 if(!defined('CURSCRIPT')) {

@@ -1,9 +1,9 @@
 <?php
 /*
-	$RCSfile: rankgroup.php,v $
-	$Revision: 1.0 $
-	$Date: 2006/02/23 13:44:02 $
-	$author: cfc4n $
+	$Author$
+	$Date$
+	$URL$
+	$Rev$
 */
 
 require_once './include/common.inc.php';

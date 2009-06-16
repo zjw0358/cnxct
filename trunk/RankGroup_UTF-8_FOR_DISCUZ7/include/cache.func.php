@@ -1,9 +1,11 @@
 <?php
-
 /*
 	[Discuz!] (C)2001-2009 Comsenz Inc.
 	This is NOT a freeware, use is subject to license terms
-
+	$Author$
+	$Date$
+	$URL$
+	$Rev$
 	$Id: cache.func.php 17540 2009-01-21 01:20:42Z cnteacher $
 */
 

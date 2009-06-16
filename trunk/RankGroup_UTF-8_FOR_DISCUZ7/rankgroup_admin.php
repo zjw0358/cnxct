@@ -1,8 +1,9 @@
 <?php
 /*
-	[Cfc4n!] (C)2001-2008 
-	
-	$Id: admin.inc.php  2008-11-21 cfc4n $
+	$Author$
+	$Date$
+	$URL$
+	$Rev$
 */
 require_once './include/common.inc.php';
 require_once DISCUZ_ROOT.'./plugins/rankgroup/rankgroup.func.php';
