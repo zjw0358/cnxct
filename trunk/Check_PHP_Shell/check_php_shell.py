@@ -45,7 +45,7 @@ def listdir(dirs,liston='0'):
 						flog.write(info)
 						print info
 						iname += 1
-					match = re.search(r'\b(?P<function>eval|proc_open|popen|shell_exec|exec|passthru|system|assert)\b\s*\(', file_contents, re.IGNORECASE| re.MULTILINE)
+					match = re.search(r'\b(?P<function>eval|proc_open|popen|shell_exec|exec|passthru|system|assert|fwrite|create_function)\b\s*\(', file_contents, re.IGNORECASE| re.MULTILINE)
 					if match:
 						function = match.group("function")
 						if iname == 0:
