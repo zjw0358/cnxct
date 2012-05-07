@@ -1,0 +1,74 @@
+{subtemplate header}
+<div id="nav"><a href="$indexname">$bbname</a> &raquo; $lang['rankgroup']</div>	
+	
+	
+<div id="wrap" class="wrap with_side s_clear">
+	<div class="main">
+	<div class="content">
+	<h1>$lang['rankgroup']</h1>
+
+	<div class="datalist">
+<!--{if empty($type)}-->
+	<form method="post" action="rankgroup.php?action=save">
+	<input type="hidden" name="formhash" value="{FORMHASH}" />
+	<table summary="$lang['rankgroup_edit']" cellspacing="0" cellpadding="0" style="margin-bottom: 30px;" align="center" class="datatable">
+	<thead class="colplural">
+		<tr>
+		<td></td>
+		<td>$lang['rankgroup_class']</td>
+		<td></td>
+		<td></td>
+		</tr>
+	</thead>
+	<tbody>
+	<!--{if $rankgroup}-->
+		<!--{loop $rankgroup $group}-->
+			<tr <!--{if $group['check']}--> class="colplural"<!--{/if}-->>
+			<td width="5%"><input type="radio" name="rankgroupid" value="$group['id']" $group['check']/></td>
+			<td width="15%" align="center"><strong>$group['gname']</strong><br><img src="{IMGDIR}/../avatars/$group['imgurl']" width="80" height="110" /></td>
+			<td>
+			<!--{loop $group['ranks'] $ranks}-->			
+			<div style="width:140px; margin:auto 5px; float:left;">$ranks['ranktitle']&nbsp;$ranks['gname']</div>
+			<!--{/loop}-->
+			</td>
+			<td><!--{if $group['check']}--> <img src="images/default/data_valid.gif"><!--{/if}--></td>
+			</tr>
+		<!--{/loop}-->
+		<td colspan="6">$lang['rankgroup_please']!</td></tr>
+	<!--{else}-->
+		<td colspan="6">$lang['rankgroup_no']</td></tr>
+	<!--{/if}-->
+	</tbody>
+	<tr class="btns">
+	<td colspan="6"><button class="submit" type="submit" name="rankgroupsubmit" id="rankgroupsubmit" value="true" tabindex="1">{lang submit}</button></td>
+	</table>
+	</form>
+<!--{elseif $type == 'save'}-->
+<table summary="{lang rankgroup_edit}" cellspacing="0" cellpadding="0" class="datatable" align="center">
+	<tbody>
+	<tr>
+	<td>
+	<!--{if $edit == TRUE }-->
+	<img src="{IMGDIR}/check_right.gif" />$lang['rankgroup_edit_true']
+	<!--{else}-->
+	<img src="{IMGDIR}/check_error.gif" />$lang['rankgroup_edit_false']
+	<!--{/if}-->
+	<a href="./rankgroup.php">[ {lang go_back} ]</a>
+<!--{/if}-->
+	</td>
+	</tr>
+	</tbody>
+</table>
+
+
+    </div>
+	</div>
+	</div>
+	
+	
+	
+	<div class="side">
+		{subtemplate personal_navbar}
+	</div>
+</div>
+{subtemplate footer}
